@@ -1,0 +1,16 @@
+{
+  "name": "hcm-etl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "etl-node.js",
+  "scripts": {
+    "start": "nodemon etl-node.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "etl": "^0.6.12",
+    "kafka-node": "^5.0.0",
+    "nodemon": "^2.0.3"
+  }
+}
